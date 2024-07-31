@@ -2,14 +2,17 @@
 <template>
   <div>
    <Navbar/>
+   <Todos/>
   </div>
 
 </template>
 <script>
 import Navbar from './components/Navbar.vue';
+import Todos from './components/Todos.vue';
 export default{
   components:{
-    Navbar
+    Navbar,
+    Todos
   }
 }
 
